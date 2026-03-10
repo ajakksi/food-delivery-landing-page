@@ -1,0 +1,504 @@
+body
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #1C1C1C;
+    color:#FFFFFF;
+    margin: 0;
+    
+}
+
+a{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+ul{
+list-style: none;
+ margin: 0;
+padding: unset; 
+}
+
+.container
+{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: 500;
+margin: 0;
+}
+
+p{
+    margin:0;
+}
+
+p+p{
+    margin:30px 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+
+    width: 165px ;
+    height: 49px;
+    background-color: #F6762C;
+    border-radius: 5px;
+  
+    transition: opacity 0.3s;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn--small
+{
+
+    font-size: 12px;
+    
+    width: 140px ;
+    height: 40px;
+
+}
+
+.header .container
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header{
+    
+padding-top: 25px;
+
+}
+
+
+.header_list{
+      display: flex; 
+      gap:30px;
+    
+}
+
+.header_nav a.non-active{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.header_nav a.non-active:hover{
+    opacity: 0.9; 
+}
+
+.header_nav a.active{
+    font-size: 14px;
+    opacity: 1;
+    font-weight: bold;
+
+}
+.header_nav a.active:hover{
+    
+    opacity: 0.9;
+    
+}
+
+
+.welcome{
+padding-top: 270px;
+padding-bottom: 240px;
+margin-top :-75px;
+background-image: url("./images/welcome.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+.welcome_title{
+
+     font-size: 58px;
+    
+}
+
+
+
+.welcome_subtitle{
+
+    margin-bottom: 7px;
+
+    font-size: 14px;
+    letter-spacing: 0.1cm;
+    
+    
+
+}
+
+
+
+.welcome_description{
+
+    margin: 40px 0;
+
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.7;
+   
+   
+}
+
+.welcome_inner-wripper {
+
+    width: 555px;
+    margin-top: 210px;
+    
+    
+}
+
+.food-list{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.food-list .container{
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.food-list-card
+{
+    
+    width: 260px;
+    
+
+    text-align: center;
+    overflow: hidden;
+
+    background-color: #312F30;
+    border-radius:10px;
+}
+
+.image-food-list{
+
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.text-wrapper{
+
+    padding:30px 20px;
+    
+}
+
+.title-food-list
+{
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.description-food-list{
+
+    font-size: 16px;
+    opacity: 70%;
+    margin:0;
+
+}
+
+.promo{
+
+    background-color: #312F30;
+    padding: 60px 0;
+}
+.promo .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 100px;
+    
+}
+
+.promo_image{
+
+    max-width: 470px;
+}
+
+.promo_text_wripper{
+
+    max-width: 370px;
+    margin-right: 90px;
+    
+}
+
+.title_promo{
+
+    font-size: 44px;
+    margin-bottom: 25px;
+
+}
+
+.description_promo{
+
+    margin-bottom: 15px;
+
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.promo_price{
+    
+    font-size:16px;
+    font-weight: 500;
+    letter-spacing: 0.1cm;
+    text-decoration: line-through;
+    opacity:0.5;
+
+    color:#F6762C;
+}
+
+.promo_new_price{
+    
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1cm;
+    margin-right: 6px;
+
+    color:#F6762C;
+}
+.promo .btn{
+
+    margin-top: 10px;
+}
+
+.product .container{
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+}
+
+.product_card{
+
+   box-sizing:border-box;
+   
+   
+    max-width: 550px;
+    height: 300px;
+    padding: 60px 25px 60px 290px;
+
+    background-color:#312F30;
+}
+
+.product_card:nth-child(even)
+{
+    padding: 60px 290px 60px 25px;
+}
+
+.product_title{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.product_description{
+
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product_new_price{
+
+    margin-right: 5px;
+    
+    font-weight: 500;
+    font-size: 16px;
+
+    letter-spacing: 0.1cm;
+    color:#F6762C;
+}
+
+.product .btn{
+    margin-top: 10px;
+}
+
+
+.card-queen{
+
+    background-image: url(./images/Dairy-Queen.png) ;
+   
+}
+
+.card-hut{
+    background-image:url(./images/Pizza-Hut.png);
+}
+
+.card-king{
+    background-image:url(./images/Burger-King.png);
+}
+
+.card-johns{
+     background-image:url(./images/Papa-Jonn\'s.png);
+}
+
+.feedback .container{
+
+    max-width: 850px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 200px;
+    
+}
+
+
+.feedback_text{
+margin:0;
+text-align: center;
+display: flex;
+flex-direction: column;
+width: 370px;
+
+}
+
+.feedback_text::before{
+    content:url("./images/quote.png");
+}
+
+
+.feedback_description{
+    
+opacity:0.7;
+margin: 40px 0 30px;
+
+
+}
+
+.feedback_author{
+font-style: normal;
+font-size: 24px;
+font-weight: 500;
+}
+
+.feedback_subauthor{
+
+    opacity:0.7;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.download_menu{
+
+    background-color:#312F30;
+    padding: 60px 0;
+}
+
+.download_menu .container{
+
+display: flex;
+align-items:center;
+justify-content: space-around;
+
+}
+
+.download_text
+{
+    font-weight: 500;
+    font-size: 40px;
+}
+footer{
+    padding: 120px 0;
+}
+
+footer a
+{
+    font-size: 12px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+footer a:hover
+{
+    opacity: 0.9;
+    
+}
+footer .container{
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   grid-template-areas: "contacts nav socials";
+ 
+}
+footer .footer-title{
+
+    
+    font-weight: 500;
+    font-size: 16px;
+}
+.footer_navigation{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    
+}
+.footer_contacts{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.footer_logo{
+padding-bottom: 20px;
+width: 70px;
+}
+footer .footer-link + .footer-link{
+
+padding-top: 10px;
+}
+
+.footer-link::before{
+
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.footer-link-mail::before
+{
+    content: url(./images/icons/email.png);
+  
+   
+}
+
+.footer-link-web::before{
+    content: url(./images/icons/global.svg);
+    
+}
+
+.footer-menu-subtitle{
+
+margin-top: 15px;
+}
+
+.footer_socials-icons{
+margin-top: 15px;
+opacity:1;
+}
+.footer_soc-icon+.footer_soc-icon{
+padding-left: 10px;
+}
